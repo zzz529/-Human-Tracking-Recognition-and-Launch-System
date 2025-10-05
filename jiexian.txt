@@ -1,0 +1,11 @@
+k230 gpio47-->上下转动舵机pwm
+     gpio46-->左右转动舵机pwm
+     gpio42-->tb6612 stby
+     gpio32-->tb6612 cin1
+     GND-->tb6612 GND
+     5v--> tb6612 5V(脱机供电用)
+     两舵机供电均接tb6612 5v GND
+     tb6612使用12v锂电池供电
+     tb6612PWMC-->3.3v
+     发射装置+ -->co1
+     发射装置- --> tb6612 GND
